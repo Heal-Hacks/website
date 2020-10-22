@@ -123,12 +123,12 @@ a, a:hover, a:focus{
 }
 
 .landing{
-    height: 100%;
+    height: auto;
 }
 
 .about{
     background-color: #c2c2c2;
-    height: 50%;
+    height: auto;
 }
 
 .abt{
@@ -159,7 +159,7 @@ a, a:hover, a:focus{
 }
 
 .tracks{
-    width: 40%;
+    width: 50%;
     margin: auto;
     margin-top: 30px;
 }
@@ -175,11 +175,11 @@ a, a:hover, a:focus{
     font-size: 2rem;
 }
 
-.faq-section{
+#faq-section{
     background-color: #c2c2c2;
     height: auto;}
 
-.faq-title{
+.title{
     text-align: center;
     font-size: 5rem;
     padding-top: 20px;
@@ -212,7 +212,97 @@ a, a:hover, a:focus{
     margin-bottom: 10px;
 }
 
+.schedule{
+    width: 70%;
+    margin: auto;
+}
 
+#prizes{
+    height: auto;
+    background-color: #c2c2c2;
+}
+
+.prize-list{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.card span {
+    text-align: center;
+    font-size: 2.2rem;
+    color: white;
+    display: block;
+    padding: 0 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+    background-color: #15ac4f;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.rank{
+    text-decoration: underline;
+}
+
+.gift{
+    padding-bottom: 10px;
+}
+
+.carousel-inner img {
+    width: 50%;
+    height: 50%;
+  }
+
+.carousel-inner{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+.judges-list{
+    height: auto;
+    background-color: #c2c2c2;
+}
+
+.judges{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.judges img{
+    width: 60%;
+    height: 60%;
+}
+
+.sponsors{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+    background-color: #c2c2c2;
+    height: 15%;
+    padding-top: 10px;
+}
+
+h4{
+    text-align: center;
+    font-size: 3rem;
+}
 
 /*Media Queries*/
 @media screen and (max-width: 1400px) {
@@ -224,27 +314,11 @@ a, a:hover, a:focus{
       text-align: center;
   }
 
-  .about{
-      height: auto;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .landing{
-      height: auto;
-  }
-
-  .mail-list{
-      margin-bottom: 15px;
-  }
-}
-
-@media screen and (max-width: 1700px) {
   .tracks .col-sm-4{
       width: 100%;
   }
 
-  .col-sm-4 img{
+  .track-img{
     display: none;
   }
 
@@ -255,4 +329,40 @@ a, a:hover, a:focus{
   .track-title{
       text-decoration: underline;
   }
+}
+
+@media screen and (max-width: 1260px) {
+  .prize-list .col-sm-3{
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .prize-list .col-sm-3{
+      width: 80%;
+      margin: auto;
+  }
+
+  .sponsors .col-sm-3{
+      width: 100%;
+      margin: auto;
+ }
+
+}
+
+@media screen and (max-width: 955px) {
+  .judges .col-sm-4{
+      width: 100%;
+      margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+    .sponsors{
+        width: 60%;
+    }
+
+    .sponsors .col-sm-3{
+        width: 50%;
+    }
 }
