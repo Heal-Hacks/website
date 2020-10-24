@@ -6,7 +6,7 @@ body, html{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #15ac4f;
+    background-color: #3b7cd1;
 }
 
 .header .navbar-brand {
@@ -65,10 +65,11 @@ a, a:hover, a:focus{
 .buttons{
     width: 50%;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .btnlink{
-    background-color: #b1ffd0;
+    background-color: #9fecff;
     text-align: center;
     padding: 7px 0;
     border-radius: 25px;
@@ -80,12 +81,17 @@ a, a:hover, a:focus{
     box-shadow: 0 8px 16px 0 rgba(110, 110, 110, 0.2);
 }
 
-.col-sm-4 a, .mailing a{
+.register .btnlink{
+    width: 48%;
+    margin: auto;
+}
+
+.col-sm-4 a, .mailing a, .register a{
     color: #333333;
 }
 
 .mail-list{
-    background-color: #b1ffd0;
+    background-color: #9fecff;
     text-align: center;
     padding: 7px 0;
     border-radius: 15px;
@@ -175,7 +181,7 @@ a, a:hover, a:focus{
     font-size: 2rem;
 }
 
-#faq-section{
+#faq{
     background-color: #c2c2c2;
     height: auto;}
 
@@ -195,7 +201,7 @@ a, a:hover, a:focus{
 }
 
 .faq-box{
-    background-color: #15ac4f;
+    background-color: #3b7cd1;
     width: 100%;
     margin-bottom: 10px;
     border-radius: 15px;
@@ -212,7 +218,7 @@ a, a:hover, a:focus{
     margin-bottom: 10px;
 }
 
-.schedule{
+.schedule-embed{
     width: 70%;
     margin: auto;
 }
@@ -240,7 +246,7 @@ a, a:hover, a:focus{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     margin-bottom: 20px;
-    background-color: #15ac4f;
+    background-color: #3b7cd1;
 }
 
 .card:hover {
@@ -295,7 +301,7 @@ a, a:hover, a:focus{
 
 .footer{
     background-color: #c2c2c2;
-    height: 15%;
+    height: 130px;
     padding-top: 10px;
 }
 
@@ -305,6 +311,16 @@ h4{
 }
 
 /*Media Queries*/
+@media screen and (max-width:1280px) {
+    .name{
+        padding-top: 0%;
+    }
+
+    .statement{
+        font-size: 3rem;
+    }
+}
+
 @media screen and (max-width: 1400px) {
   .about-img{
       display: none;
