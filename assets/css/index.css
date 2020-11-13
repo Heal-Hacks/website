@@ -44,7 +44,7 @@ a, a:hover, a:focus{
 .name{
     text-align: center;
     font-size: 12rem;
-    padding-top: 10%;
+    padding-top: 6%;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -88,6 +88,11 @@ a, a:hover, a:focus{
 
 .col-sm-4 a, .mailing a, .register a{
     color: #333333;
+}
+
+.divider{
+    width: 50%;
+    border: 1px solid #333333;
 }
 
 .mail-list{

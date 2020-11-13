@@ -46,6 +46,13 @@ a, a:hover, a:focus{
     font-size: 8rem;
     padding-top: 2%;
     font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-left: 5.5%;
+    font-size: 2.7rem;
+    font-family: 'Oswald', sans-serif;
     padding-bottom: 3%;
 }
 
