@@ -62,7 +62,7 @@ h2{
 }
 
 .logo-container{
-    text-align: center;
+    text-align: right;
 }
 
 .logo{
@@ -73,6 +73,7 @@ h2{
 
 .about-fly-high p{
     font-size: 1.9rem;
+    margin-top: 30px;
 }
 
 .btnlink{
@@ -134,4 +135,21 @@ h4{
 
 .fa-envelope {
   color: #1b1c74;
+}
+
+.center-container{
+    width: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1350px) {
+    .about-fly-high p{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .logo-container{
+        text-align: center;
+    }
 }
