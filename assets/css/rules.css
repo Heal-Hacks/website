@@ -7,6 +7,7 @@ body, html{
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #3b7cd1;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 .header .navbar-brand {
