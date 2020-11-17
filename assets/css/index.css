@@ -7,6 +7,7 @@ body, html{
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #3b7cd1;
+    background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
 }
 
 .header .navbar-brand {
@@ -44,7 +45,7 @@ a, a:hover, a:focus{
 .name{
     text-align: center;
     font-size: 12rem;
-    padding-top: 6%;
+    padding-top: 3%;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -55,7 +56,7 @@ a, a:hover, a:focus{
 
 .statement{
     text-align: center;
-    font-size: 3.6rem;
+    font-size: 3.0rem;
     width: 50%;
     margin: auto;
     border-top: 3px solid #333333;
@@ -135,10 +136,12 @@ a, a:hover, a:focus{
 
 .landing{
     height: auto;
+    width: 100%;
 }
 
 .about{
     background-color: #c2c2c2;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     height: auto;
 }
 
@@ -188,6 +191,7 @@ a, a:hover, a:focus{
 
 #faq{
     background-color: #c2c2c2;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     height: auto;}
 
 .title{
@@ -216,11 +220,21 @@ a, a:hover, a:focus{
     font-size: 2.5rem;
     border-bottom: 2.5px solid #333333;
     color: white;
+    padding-top: 5px;
 }
 
 .answer{
     font-size: 2rem;
     margin-bottom: 10px;
+}
+
+.answer a{
+    color:#333333;
+    text-decoration: underline;
+}
+
+.answer a:hover{
+    color: black;
 }
 
 .schedule-embed{
@@ -231,6 +245,7 @@ a, a:hover, a:focus{
 #prizes{
     height: auto;
     background-color: #c2c2c2;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 .prize-list{
@@ -285,6 +300,7 @@ a, a:hover, a:focus{
 .judges-list{
     height: auto;
     background-color: #c2c2c2;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 .judges{

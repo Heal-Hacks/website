@@ -64,6 +64,10 @@ a, a:hover, a:focus{
     margin-bottom: 5px;
 }
 
+.bio-pic{
+    width: 100%;
+}
+
 .person .title{
     font-size: 1.8rem;
 }
@@ -76,8 +80,6 @@ a, a:hover, a:focus{
     background-color: #c2c2c2;
     height: 88px;
     padding-top: 10px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
