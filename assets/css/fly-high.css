@@ -6,7 +6,7 @@ body, html{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #0B0C10d1;
+    background-color: #FFF;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
@@ -78,7 +78,7 @@ h2{
 }
 
 .btnlink{
-    background-color: #9fecff;
+    background-color: #cfe2f3;
     text-align: center;
     padding: 7px 0;
     border-radius: 5px;
