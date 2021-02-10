@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/img/logo/logo.png" />
     <link href="assets/css/index.css" type="text/css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <body>
     <div class="container header">
@@ -49,26 +50,26 @@
 
     <!--Landing Page-->
     <div class="landing container">
-        <h1 class="name">HEAL HACKS 2021</h1>
-        <p class="dates">April 24-25, 2021, Virtual</p><br>
-        <p class="statement"><i>Heal Hacks is the world's premier healthcare hackathon for healthcare awareness and healthcare inequity.</i></p><br>
+        <h1 class="name" data-aos="fade-down">HEAL HACKS 2021</h1>
+        <p class="dates" data-aos="fade-down">April 24-25, 2021, Virtual</p><br>
+        <p class="statement" data-aos="fade-down"><i>Heal Hacks is the world's premier healthcare hackathon for healthcare awareness and healthcare inequity.</i></p><br>
 
         <div class="row buttons">
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-aos="fade-up">
                 <a href="https://heal-hacks.devpost.com/" target="_blank">
                     <div class="btnlink">
                         Devpost
                     </div>
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-aos="fade-up">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcYqRzWZDDMKDncAjg1TQaHYVkhtQvZCEcFWlaAAdKApbrlQ/viewform" target="_blank">
                     <div class="btnlink">
                         Register
                     </div>
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-aos="fade-up">
                 <a href="https://discord.gg/QzQk2cC" target="_blank">
                     <div class="btnlink">
                         Discord
@@ -76,23 +77,23 @@
                 </a>
             </div>
         </div>
-        <hr class="divider">
+        <hr class="divider" data-aos="fade-up">
         <div class="row buttons">
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-aos="fade-up">
                 <a href="https://forms.gle/VxjS2vFCeA52r33Z7" target="_blank">
                     <div class="btnlink">
                         Mentor
                     </div>
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-aos="fade-up">
                 <a href="https://forms.gle/VxjS2vFCeA52r33Z7" target="_blank">
                     <div class="btnlink">
                         Speak
                     </div>
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4" data-aos="fade-up">
                 <a href="https://forms.gle/VxjS2vFCeA52r33Z7" target="_blank">
                     <div class="btnlink">
                         Judge
@@ -102,13 +103,13 @@
         </div>
         <br>
         <div class="socials">
-            <a href="https://www.instagram.com/flyhigh.community" target="_blank" class="fa fa-instagram"></a>
-            <a href="mailto:hackteam@flyhighnpo.tech" class="fa fa-envelope"></a>
+            <a href="https://www.instagram.com/flyhigh.community" target="_blank" class="fa fa-instagram" data-aos="fade-right"></a>
+            <a href="mailto:hackteam@flyhighnpo.tech" class="fa fa-envelope" data-aos="fade-left"></a>
         </div>
         <br>
         <div class="mailing">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0NwpH81_3b8ejitAAE2Nr6ki8iSud-2sBLSI8FyztGH2Xwg/viewform" target="_blank">
-                <div class="mail-list">
+                <div class="mail-list" data-aos="fade-up">
                     Stay Updated!
                 </div>
             </a>
@@ -501,6 +502,10 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
