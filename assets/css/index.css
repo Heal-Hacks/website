@@ -1,60 +1,64 @@
-body, html{
+body,
+html {
     margin: 0;
     padding: 0;
-    height:100%;
+    height: 100%;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     background-color: #3b7cd1;
     background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
 }
 
 .header .navbar-brand {
-  display: flex;
-  align-items: center;
-  font-size: 2.2rem;
-  color: rgb(0, 0, 37);
-  font-family: 'Oswald', sans-serif;
-}
-.header .navbar-brand>img {
-  padding: 7px 14px;
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    color: rgb(0, 0, 37);
+    font-family: 'Oswald', sans-serif;
 }
 
-.header{
+.header .navbar-brand>img {
+    padding: 7px 14px;
+}
+
+.header {
     width: auto;
     padding: 0;
 }
 
-a, a:hover, a:focus{
+a,
+a:hover,
+a:focus {
     text-decoration: none;
     background-color: transparent !important;
     outline: none;
 }
 
-.navbar-toggle span{
+.navbar-toggle span {
     background-color: #000025;
 }
 
-.navbar-right li a{
+.navbar-right li a {
     color: #000025;
     font-size: 2.0rem;
     font-family: 'Oswald', sans-serif;
 }
 
-.name{
+.name {
     text-align: center;
     font-size: 12rem;
     padding-top: 3%;
     font-family: 'Oswald', sans-serif;
 }
 
-.dates{
+.dates {
     text-align: center;
     font-size: 3rem;
 }
 
-.statement{
+.statement {
     text-align: center;
     font-size: 3.0rem;
     width: 50%;
@@ -63,13 +67,13 @@ a, a:hover, a:focus{
     border-bottom: 3px solid #333333;
 }
 
-.buttons{
+.buttons {
     width: 50%;
     margin: auto;
     margin-bottom: 10px;
 }
 
-.btnlink{
+.btnlink {
     background-color: #cfe2f3;
     text-align: center;
     padding: 7px 0;
@@ -78,25 +82,27 @@ a, a:hover, a:focus{
     margin-bottom: 5px;
 }
 
-.btnlink:hover{
+.btnlink:hover {
     box-shadow: 0 8px 16px 0 rgba(110, 110, 110, 0.2);
 }
 
-.register .btnlink{
+.register .btnlink {
     width: 48%;
     margin: auto;
 }
 
-.col-sm-4 a, .mailing a, .register a{
+.col-sm-4 a,
+.mailing a,
+.register a {
     color: #333333;
 }
 
-.divider{
+.divider {
     width: 50%;
     border: 1px solid #333333;
 }
 
-.mail-list{
+.mail-list {
     background-color: #cfe2f3;
     text-align: center;
     padding: 7px 0;
@@ -105,12 +111,12 @@ a, a:hover, a:focus{
     border: 2.5px solid #333333;
 }
 
-.mailing{
+.mailing {
     width: 27%;
     margin: auto;
 }
 
-.socials{
+.socials {
     text-align: center;
 }
 
@@ -127,85 +133,86 @@ a, a:hover, a:focus{
 }
 
 .fa-instagram {
-  color: #1b1c74;
+    color: #1b1c74;
 }
 
-.fa-instagram:visited{
+.fa-instagram:visited {
     color: #1b1c74;
 }
 
 .fa-envelope {
-  color: #1b1c74;
+    color: #1b1c74;
 }
 
-.landing{
+.landing {
     height: auto;
     width: 100%;
 }
 
-.about{
+.about {
     background-color: #c2c2c2;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     height: auto;
 }
 
-.abt{
+.abt {
     margin-right: 15px;
-    margin-left:-15px;
+    margin-left: -15px;
 }
 
-.about-img{
+.about-img {
     width: 80%;
     height: auto;
     margin: 0 10%;
     padding-top: 2%;
 }
 
-.about-text{
+.about-text {
     padding: 0 10%;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.track-section{
+.track-section {
     height: auto;
 }
 
-.track-title{
+.track-title {
     text-align: center;
     font-size: 5rem;
 }
 
-.tracks{
+.tracks {
     width: 50%;
     margin: auto;
     margin-top: 30px;
 }
 
-.track-img{
+.track-img {
     height: 170px;
     width: auto;
 }
 
-.col-sm-4 span{
+.col-sm-4 span {
     display: block;
     text-align: center;
     font-size: 2rem;
 }
 
-#faq{
+#faq {
     background-color: #c2c2c2;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-    height: auto;}
+    height: auto;
+}
 
-.title{
+.title {
     text-align: center;
     font-size: 5rem;
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-.faq-container{
+.faq-container {
     background-color: #ececec;
     border-radius: 25px;
     width: 50%;
@@ -213,46 +220,46 @@ a, a:hover, a:focus{
     padding: 20px 20px;
 }
 
-.faq-box{
+.faq-box {
     background-color: #cfe2f3;
     width: 100%;
     margin-bottom: 10px;
     border-radius: 15px;
 }
 
-.question{
+.question {
     font-size: 2.5rem;
     border-bottom: 2.5px solid #333333;
     color: #3b7cd1;
     padding-top: 5px;
 }
 
-.answer{
+.answer {
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
-.answer a{
-    color:#333333;
+.answer a {
+    color: #333333;
     text-decoration: underline;
 }
 
-.answer a:hover{
+.answer a:hover {
     color: black;
 }
 
-.schedule-embed{
+.schedule-embed {
     width: 70%;
     margin: auto;
 }
 
-#prizes{
+#prizes {
     height: auto;
     background-color: #c2c2c2;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
-.prize-list{
+.prize-list {
     width: 60%;
     margin: auto;
     margin-bottom: 40px;
@@ -267,157 +274,203 @@ a, a:hover, a:focus{
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     margin-bottom: 20px;
     background-color: #3b7cd1;
 }
 
 .card:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
-.rank{
+.rank {
     text-decoration: underline;
 }
 
-.gift{
+.gift {
     padding-bottom: 10px;
 }
 
 .carousel-inner img {
     width: 50%;
     height: 50%;
-  }
+}
 
-.carousel-inner{
+.carousel-inner {
     text-align: center;
     width: 90%;
     margin: auto;
 }
 
-.carousel-control.left, .carousel-control.right {
-   background-image:none !important;
-   filter:none !important;
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+    filter: none !important;
 }
 
-.judges-list{
+.judges-list {
     height: auto;
     background-color: #c2c2c2;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
-.judges{
+.judges {
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
-.judges img{
+.judges img {
     width: 60%;
     height: 60%;
 }
 
-.sponsors{
+.sponsors {
     width: 65%;
     margin: auto;
     text-align: center;
 }
 
-.footer{
+.footer {
     background-color: #c2c2c2;
     height: 130px;
     padding-top: 10px;
 }
 
-h4{
+h4 {
     text-align: center;
     font-size: 3rem;
 }
 
 /*Media Queries*/
 @media screen and (max-width:1280px) {
-    .name{
+    .name {
         padding-top: 0%;
     }
 
-    .statement{
+    .statement {
         font-size: 3rem;
     }
 }
 
 @media screen and (max-width: 1400px) {
-  .about-img{
-      display: none;
-  }
-  .col-sm-7{
-      width: 100%;
-      text-align: center;
-  }
+    .about-img {
+        display: none;
+    }
 
-  .tracks .col-sm-4{
-      width: 100%;
-  }
+    .col-sm-7 {
+        width: 100%;
+        text-align: center;
+    }
 
-  .track-img{
-    display: none;
-  }
+    .tracks .col-sm-4 {
+        width: 100%;
+    }
 
-  .col-sm-4 span{
-      font-size: 2.5rem;
-  }
+    .track-img {
+        display: none;
+    }
 
-  .track-title{
-      text-decoration: underline;
-  }
+    .col-sm-4 span {
+        font-size: 2.5rem;
+    }
+
+    .track-title {
+        text-decoration: underline;
+    }
 }
 
 @media screen and (max-width: 1260px) {
-  .prize-list .col-sm-3{
-      width: 50%;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .prize-list .col-sm-3{
-      width: 80%;
-      margin: auto;
-  }
-
-  .sponsors .col-sm-3{
-      width: 100%;
-      margin: auto;
- }
-
-}
-
-@media screen and (max-width: 955px) {
-  .judges .col-sm-4{
-      width: 100%;
-      margin-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 1075px) {
-    .sponsors{
-        width: 60%;
-    }
-
-    .sponsors .col-sm-3{
+    .prize-list .col-sm-3 {
         width: 50%;
     }
 }
 
-.soon-section{
+@media screen and (max-width: 780px) {
+    .prize-list .col-sm-3 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .sponsors .col-sm-3 {
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 955px) {
+    .judges .col-sm-4 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+    .sponsors {
+        width: 60%;
+    }
+
+    .sponsors .col-sm-3 {
+        width: 50%;
+    }
+}
+
+.soon-section {
     height: auto;
 }
 
-.soon-section h4{
+.soon-section h4 {
     padding-bottom: 10px;
 }
 
-.soon-title{
+.soon-title {
     padding-top: 0px;
     text-align: center;
     font-size: 5rem;
+}
+
+.content {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.125rem;
+        padding: .75rem;
+    }
+
+    li span {
+        font-size: 3.375rem;
+    }
 }
