@@ -474,3 +474,10 @@ li span {
         font-size: 3.375rem;
     }
 }
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #00ccff;
+    padding: 10px;
+}
